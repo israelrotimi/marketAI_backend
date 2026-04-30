@@ -3,12 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node server.js",
+    "dev": "node server.js --watch"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
+    "csv-parse": "^6.2.1",
     "debug": "~2.6.9",
+    "dotenv": "^17.4.2",
     "express": "~4.16.1",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "node-cache": "^5.1.2",
+    "sql.js": "^1.14.1"
   }
 }
