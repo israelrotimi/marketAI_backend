@@ -6,13 +6,11 @@
 # 1. Install dependencies
 npm install
 
-# 2. Seed the development database + CSV files
-node data/seed.js
 
-# 3. Set your Gemini API key
+# 2. Set your Gemini API key
 export GEMINI_API_KEY=your_key_here
 
-# 4. Start the server
+# 3. Start the server
 npm start
 # or with auto-reload:
 npm run dev
@@ -100,9 +98,3 @@ market-advisor/
 │   └── preservation_kb.json     # (seed.js output)
 └── package.json
 ```
-
-## Swapping in real data
-
-When Person D delivers real data files, drop them into `data/` replacing
-the seeded versions. File names and paths must stay the same.
-No code changes needed anywhere.
